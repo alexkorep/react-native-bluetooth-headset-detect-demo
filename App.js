@@ -11,13 +11,18 @@ import {StyleSheet, View, Text, Button} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
+import useBluetoothHeadsetDetection from 'react-native-bluetooth-headset-detect';
+// import useBluetoothHeadsetDetection from './BluetoothHeadsetHook';
+
 import TestComponent from './TestComponent';
 
 const App: () => React$Node = () => {
   const [visible, setVisible] = useState(false);
+  const device = useBluetoothHeadsetDetection();
   return (
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionTitle}>Step One</Text>
+      <Text>Device1: {device}</Text>
       {visible ? <TestComponent /> : null}
 
       <Button
