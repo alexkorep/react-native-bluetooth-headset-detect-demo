@@ -5005,10 +5005,10 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-native-bluetooth-headset-detect@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-bluetooth-headset-detect/-/react-native-bluetooth-headset-detect-1.1.1.tgz#4cea6b25296a4dad4202131ca1a21483891cf540"
-  integrity sha512-W4fCboxZ/CfinIsRoT0QthEkIlcF55CoQ3ndFRwhhsYRb0r4dDisdo/KDPIppNxuDB3QGHtLAgtinEKE1A+Xbw==
+react-native-bluetooth-headset-detect@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-bluetooth-headset-detect/-/react-native-bluetooth-headset-detect-2.0.0.tgz#7db49a4a37ed1fb77df3b56fa67780dbbcd1772c"
+  integrity sha512-uV93DOwZG88a5SaYIU9Vrn5Q75EBLd153wuYY6UhcYgnrrvkYpL2SBVVKQSmYIvTicLOK32myrhl5POfP/xCFg==
 
 react-native@0.61.5:
   version "0.61.5"
